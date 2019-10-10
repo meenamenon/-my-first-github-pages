@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">	
+    <title>Future Value Calculator</title>
+   <script>
+	   
+	var investment = prompt("Enter investment amount as xxxxx.xx", 20000);
+		investment = parseFloat(investment);
+		var rate = prompt("Enter interest rate as xx.x", 8.5);
+		rate = parseFloat(rate);
+		var years = prompt("Enter number of years", 20);
+		years = parseInt(years);
+		
+futureValue = investment;
+		for (var i = 1; i <= years; i++ ) {
+futureValue = futureValue + (futureValue * rate / 100);
+		}
+futureValue = parseInt(futureValue);   
+	</script>
+	<style>
+	  font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            margin: 0 auto;
+            width: 500px;
+            padding: 0 1em .5em;
+            border: 3px solid blue;
+	</style>
+</head>
+<body>
+    <main>
+    	<script>
+			document.write("Investment amount = " + investment);
+			document.write(" Interest rate = " + rate);
+			document.write(" Years = " + years);
+			document.write(" Future Value is " + futureValue + "<br><br>");
+        </script>
+        Thanks for using the Future Value application.
+    </main>
+</body>
+</html>	
+
+ 
