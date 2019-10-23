@@ -62,3 +62,38 @@ Trillium CONTACT FORM:
        </footer>
 </body>
 </html>
+
+
+
+TRILLIUM.CSS
+
+body{
+background-color: #fff;
+  color: #191970;  
+} 
+h1 {
+    background-color: #191970;
+    color: #E6E6FA;
+    margin-bottom:0;
+}
+h2 {
+    color #6A6AA7;
+}
+<nav {
+    background-color: #E2E2EF;
+}
+footer {
+    color: #666666;
+}
+#new {
+color: #FF00CC;
+}
+.company name {
+ /* color: #6A6AA7;*/
+    color: #ff00cc;
+}
+.feature {
+color: #ff0000;    
+}
+
+
