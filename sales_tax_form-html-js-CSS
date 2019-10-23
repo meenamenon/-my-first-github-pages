@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sales Tax Calculator</title>
+  <link rel="stylesheet"  href="sales_tax.css"/>
+   <script> src="sales_tax.javascript"></script>
+   </head>
+	<body>
+<div id="wrapper"></div>
+<header>
+ <main>
+    <h1>Sales Tax Calculator</h1>
+    <p>Enter Subtotal and Tax Rate and click "Calculate".</p> 
+	 <form id="sales_tax form">
+    <label for="subtotal">Subtotal:</label>
+    <input type="text" id="subtotal" ><br>
+
+    <label for="tax_rate">Tax Rate:</label>
+    <input type="text" id="tax_rate" ><br>
+
+    <label for="sales_tax">Sales Tax:</label>
+    <input type="text" id="sales_tax"><br>
+
+    <label for="total">Total:</label>
+    <input type="text" id="total" ><br>
+
+    <label>&nbsp;</label>
+    <input type="submit" id="submit" value="Calculate" onclick="processEntries()">
+    <input type="reset" id="clear" value="Clear" onclick="clearForm()">
+	<form>
+	</main>
+	</body>
+</html>	
+	
+  
+SALES_TAX.JavaScript
+
+
+var $= function (id){
+  return document.getElementById(id);
+		}
+	var processEntries=function()	
+{
+
+function clearall(){
+   document.getElementById("myform").reset();
+document.getElementById("subtotal").focus();
+}
+
+function processEnteries(){
+  
+   var inSubtotal=parseFloat($("subtotal").value;
+var inTaxrate=parseFloat($("tax_rate").value;
+if(x<0 || x>10000){
+alert("subtotal must be >0 and <10000");
+	
+   document.getElementById("subtotal").focus();
+	
+	//check values
+}
+if(inSubTotal <=0 || subtotal > 10000){}
+
+document.getElementById("sales_tax").value=tax;
+document.getElementById("total").value=total;
+document.getElementById("subtotal").focus();
+};
+	</script>
+	</html>
+  
+  
+  SALES_TAX-CSS
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 550px;
+    border: 3px solid blue;
+}
+h1 {
+	color: blue;
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+main {
+    padding: 1em 2em;
+}
+label {
+	float: left;
+    width: 6em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+span {
+	color: blue;
+	
+ 
