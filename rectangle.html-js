@@ -33,3 +33,91 @@
 		</main>
 	</body>
 
+RECTANGLE.CSS
+
+@charset "utf-8";
+/*Simply width and height calculations */
+html{
+box-sizing: border-box;
+}
+*, *:before, *:after { box-sizing: inherit; }
+
+body{
+margin:0;
+color: #4b4b4b;
+font-style: normal;
+font-weight: 400;
+font-size: 1em;
+background-color: #eff5f8;
+}
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1000px;
+	background-color: #FFFFFF;
+}
+h1 {
+    color: #009623;
+}
+h2 {
+    color: #FF5A0F;
+}
+
+a{
+font-weight: bold;
+text-decoration: none;
+}
+a:link {
+color: #F68979;
+}
+a:visited {
+	color: #FF944C;
+}
+a:hover, a:active, a:focus {
+	color: #7F3300;
+	text-decoration: underline;
+}
+/* update the background color */
+.navbar-default{
+	background-color: #EFF5F8;
+}
+#menulink {
+	text-transform: uppercase;
+	margin: 0;
+}
+#menulink button {
+	background-color: #FF944C;
+}
+#navlinks {
+	padding-left: 30px;
+	text-align: center;
+}
+#navlinks a {
+	padding-top: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+#navlinks a:hover, #navlinks a:focus {
+	color: #F68979;
+}
+@media (max-width: 764px) {
+	#navlinks {
+		width: 100%;
+		margin: 0;
+		text-align: center;
+		background-color: #000000;
+		background-color: rgba(0,0,0,0.65);
+		position: absolute;
+		-webkit-transition: all ease-out 0.5s;
+		transition: all ease-out 0.5s;
+	}
+	#navlinks a {
+		width: 100%;
+		color: #FFF;
+	}
+	header {
+		overflow: hidden;
+	}
+}
+
+
