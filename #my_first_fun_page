@@ -1,0 +1,19 @@
+<html>
+<head><title>HTML Basics for Fun and Profit</title></head><body><h1>Welcome to my first webpage</h1>
+<p>Making webpages is fun&#160;&#160;&#160;&#160;&#160; <strong><em>and easy!</em></strong></p> </body></html>
+
+
+MY SECOND PAGE HTML
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML Basics, Page 2</title>
+</head>
+
+	<body><h1>Welcome to my second page</h1>
+		<p>Making webpages in Dreamweaver is even 
+		<em><strong>more</strong></em> fun!</p>
+</body>
+</html>
