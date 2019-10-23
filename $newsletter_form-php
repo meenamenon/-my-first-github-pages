@@ -1,0 +1,30 @@
+<?php
+//newsletter subscription
+if ($_POST['submit'] == 'subscribe'){
+ $email = $_POST['email'];
+ $fh = fopen('subscribers.txt',"a");
+ fwrite($fh,$email."\n");
+  fclose($fh);
+    echo ' Thank you for subscribing ';
+}
+if ($_POST['submit'] =='unsubscribe'){
+  //unsubscribe
+	$email = $_POST['email'];
+ $current subscribers = file('subscribers.txt');
+ foreach ($current subscribers as $email address){
+ if ($email."\n" != $email address){
+ $new list .= $email address;
+ 	   }
+ 	}
+ //now use file handling to rewrite the new list
+ $fh = fopen('subscribers.txt',"w");
+  fwrite($fh,$newlist);
+  fclose($fh);
+  echo ' We are sorry to see you go'!<br>
+
+<form action="newsletter.php" method="post">
+<label for="email">Subscribe</label><input type="email" name="email" id="email" required="required">
+<input type="submit" name="submit" value="subscribe">
+<input type="submit" name="submit" value="unsubscribe">
+
+</form>
