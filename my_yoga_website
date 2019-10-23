@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Path of Light Yoga Studio</title>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+     <link rel="stylesheet" href="yoga.css">
+</head>
+    <body>
+        <div id="wrapper">
+        
+  <header>
+      <h1>Path of Light Yoga Studio</h1>
+  </header>
+  <nav>   
+  
+  <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </nav>
+    
+  <main>
+      
+      <img class="floatleft" src="../chap11images/yogadoor2.jpg" alt="Wooden Sliding doors" width="225" height="300">
+       
+        <h2>Find the Inner Light</h2>                                                                                   
+    <p>Path of light Yoga Studio provides all levels of yoga practice in a tranquil, peaceful environment. Whether you are new to yoga or an experienced practitioner, our dedicated instructors can develop a practice to meet your needs. Let
+      your inner light shine at the Path of Light Yoga Studio.</p>
+      
+    <ul>
+    <li>Hatha,Vinyasa,and Restorative Yoga classic</li>
+    <li>Drop-ins welcome</li>
+    <li> Mats, blocks, and blankets provided</li>
+      <li>Relax in our Serenity Lounge before or after your class</li>
+    </ul> 
+    <div>
+           <p>Path of Light Yoga Studio<br>
+            612 Serenity Way<br>
+          El Dorado, AZ 86336<br><br>
+            <a id="mobile" href="tel:888-555-5555">888-55-5555</a>
+       <span id="desktop">888-555-5555</span>
+        </div>
+            </main>
+          <footer>
+            <small>Copyright &copy; 2019 Yoga Studio</small>
+            <p> Meena Menon</p>
+        </footer>
+        </div>
+    </body>
+    </html>
+    
+ This is another FILE:   
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Path of Light Yoga Studio :: Contact</title>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="yoga.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>
+      <h1>Path of Light Yoga Studio</h1>
+  </header>
+  <nav>   
+  
+  <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </nav>
+    
+  <main>
+    <h2>Contact Path of Light Yoga Studio</h2>  
+     <p> Required fields are marked with an asterisk <span class="red">*</span></p>
+       
+       <form method="post" action="http://webdevbasics.net/scripts/yoga.php">
+        
+         <label for="myName"><span class="red">*</span>Name:</label>
+         <input type="text" id="myName" name="myName" required="required"> 
+         
+         <label for="myEmail"><span class="red">*</span>E-mail:</label>
+         <input type="email" id="myEmail" name="myEmail" size="35" required="required">
+         
+           <label for="Howdidyouhearaboutus">How did you hear about us?</label>
+         <input type="textbox" name="howdidyouhearaboutus" id="howdidyouhearaboutus"  required="required">
+         
+         <label for="myComments"><span class="red">*</span>Comments:</label> 
+          <textarea name="myComments" id="myComments" cols="40" rows="2" required="required"></textarea>
+           <input type="submit" value="Send Now">
+      </form>
+        
+    <div id="contact">
+        <p>Path of Light Yoga Studio<br>
+            612 Serenity Way<br>
+          El Dorado, AZ 86336<br><br>
+            <a id="mobile" href="tel:888-555-5555">888-55-5555</a>
+       <span id="desktop">888-555-5555</span>
+        </div>
+            </main>
+          <footer>
+            <small>Copyright &copy; 2019 Yoga Studio</small>
+            <p> Meena Menon</p>
+        </footer>
+        </div>
+    </body>
+    </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Path of Light Yoga Studio: Classes</title> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="yoga.css">
+</head>
+<body>
+
+<div id="wrapper">
+ <header>
+      <h1>Path of Light Yoga Studio</h1>
+  </header>
+  
+  <nav>   
+  <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+  </ul>
+      </nav>
+          
+      <main>
+         <div id="mathero"></div>
+          
+          <h2>Yoga Classes</h2>
+      <dl>
+      <dt><strong>Gentle Hatha Yoga</strong></dt>
+      <dd>Intended for beginners and anyone wishing a grounded foundation in the practice of yoga, this 60 minute class of poses and slow movement focuses on (proper alignment and posture),pranayama (breath work), and guided meditation to foster your mind and body connection.</dd>
+      
+        <dt><strong>Vinyasa Yoga</strong></dt>
+      <dd>Although designed for intermediate to advanced students, beginners are welcome to sample this 60 minute class that focuses on breath-synchronized movement- you will inhale and exhale as you flow energetically through yoga poses.</dd>
+      
+          <dt><strong>Restorative Yoga</strong></dt>
+      <dd>This 90 minute class features very slow movement and long poses that are supported by a chair or wall. This calming, restorative experience is suitable for students of any level of experience. This practice can be a perfect way to help rehabilitate an injury</dd>
+     </dl>
+     <h2>Relax Anytime with Savasana</h2>
+     <p>Prepare yourself for Savasana. Lie down on your yoga mat with your arms at your side with palms up. Close your eyes and breathe slowly but deeply. Sink into the mat and let your worries slip away. When you are ready, roll on your side and use your arms to push yourself to a sitting position with crossed legs. Place your hands in a prayer position. Be greateful for all that you have in life. Namaste.</p>
+     <audio controls="controls">
+         <source src="savasana.mp3" type="audio/mpeg">
+         <source src="savasana.ogg" type="audio/ogg"><br>
+         <a href="savasana.mp3"> Download the Savasana</a> (MP 3)
+     </audio>
+     </main>
+        
+        <footer>
+               <p>Copyright &copy; 2019 Yoga Studio
+               <p> Meena Menon</p> 
+         </footer>
+        </div>
+    </body>
+    </html>
+    
+    
+THE THIRD FILE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Path of Light Yoga Studio:: Activities</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="yoga.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+ 
+</head>
+<body>
+
+    <div id="wrapper">
+  <header>
+      <h1>Activities at Light Yoga Studio</h1>
+  </header>
+  
+  <nav>   
+  <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="contact.html">Contact</a></li>
+  </ul>
+      
+  </nav>
+      <main>  
+   <div id="loungehero"></div>
+
+    <h2> Yoga Schedule</h2>
+
+<p> Mats, blocks and blankets provided. Please arrive 10 minutes before your class begins. Relax in our Serenity Lounge before or after your class.</p>
+
+     <table class="table1" align="center" width="300">
+     <tr>
+        <caption>Monday-Friday</caption>
+          <th>Time</th>
+          <th>Class</th>
+      </tr>
+      <tr>
+          <td>9.00am</td>
+          <td> Gentle Hatha Yoga</td>
+      </tr>
+      <tr>
+          <td>10.30am</td>
+          <td>Vinyasa Yoga</td>
+      </tr>
+      <tr>
+          <td>5.30pm</td>
+          <td>Restorative Yoga</td>
+      </tr>
+      <tr>
+          <td>7.00pm</td>
+          <td>Gentle Hatha Yoga</td>
+      </tr>
+          </table>
+      
+      <table class="table2" align="center" width="300"> 
+          <tr>
+        <caption>Saturday-Sunday</caption>
+              <th>Time</th>
+              <th>Class</th>
+          </tr>
+          <tr>
+              <td>10.30am</td>
+              <td>Gentle Hatha Yoga</td>
+          </tr>
+          <tr>
+          <td>Noon</td>
+          <td>Vinyasa Yoga</td>
+          </tr>
+          
+          <tr>
+             <td>1.30pm</td> 
+             <td>Gentle Hatha Yoga</td>
+          </tr>
+          <tr>
+              <td>3.00pm</td>
+              <td>Vinyasa Yoga</td>
+          </tr>
+          <tr>
+              <td>5.30pm</td>
+              <td>Restorative Yoga</td>
+          </tr>
+          </table>
+        </main>
+<footer>
+    Copyright &copy; 2019 Yoga Studio
+<p>Meena Menon</p>
+</footer>
+      </div>  
+</body>
+</html>
+
+THE FOURTH FILE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Path of Light Yoga Studio :: Contact</title>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="yoga.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>
+      <h1>Path of Light Yoga Studio</h1>
+  </header>
+  <nav>   
+  
+  <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </nav>
+    
+  <main>
+    <h2>Contact Path of Light Yoga Studio</h2>  
+     <p> Required fields are marked with an asterisk <span class="red">*</span></p>
+       
+       <form method="post" action="http://webdevbasics.net/scripts/yoga.php">
+        
+         <label for="myName"><span class="red">*</span>Name:</label>
+         <input type="text" id="myName" name="myName" required="required"> 
+         
+         <label for="myEmail"><span class="red">*</span>E-mail:</label>
+         <input type="email" id="myEmail" name="myEmail" size="35" required="required">
+         
+           <label for="Howdidyouhearaboutus">How did you hear about us?</label>
+         <input type="textbox" name="howdidyouhearaboutus" id="howdidyouhearaboutus"  required="required">
+         
+         <label for="myComments"><span class="red">*</span>Comments:</label> 
+          <textarea name="myComments" id="myComments" cols="40" rows="2" required="required"></textarea>
+           <input type="submit" value="Send Now">
+      </form>
+        
+    <div id="contact">
+        <p>Path of Light Yoga Studio<br>
+            612 Serenity Way<br>
+          El Dorado, AZ 86336<br><br>
+            <a id="mobile" href="tel:888-555-5555">888-55-5555</a>
+       <span id="desktop">888-555-5555</span>
+        </div>
+            </main>
+          <footer>
+            <small>Copyright &copy; 2019 Yoga Studio</small>
+            <p> Meena Menon</p>
+        </footer>
+        </div>
+    </body>
+    </html>
+
+
+
+
