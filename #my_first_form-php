@@ -1,0 +1,14 @@
+form action ="">
+Name: <input type="text" name = "fullname"><br>
+Gender: Male: <input type="radio" name="gender" value="Male"> Female <input type="radio" name="gender" value="Female"><br> 
+Year in School <select name ="year">
+<option value ="Freshman">Freshman</option>
+<option value ="Sophomore">Sophomore</option>
+<option value ="Junior">Junior</option>
+<option value ="Senior">Senior"</option>
+</select><br>
+    Comments:
+<textarea name="Comments"></textarea><br>
+<input type="submit" name ="submit" value="Register">
+
+</form>
