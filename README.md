@@ -1,4 +1,5 @@
 #my-first-github-page
-
-<img src="images/screenshot.jpg">
+<div id="screenshot">
+ <figure>
+<img src="my-first-github-pages/sreenshot/images.jpg" width="200" height="150" </figure>
  
